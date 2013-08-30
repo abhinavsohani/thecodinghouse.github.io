@@ -1,88 +1,146 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
 
-    <title>Abhinav Sohani: Web developer</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="jumbotron-narrow.css" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:100,300,700">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-
+body {
+    padding-bottom: 20px;
+    padding-top: 20px;
+	font-family: 'Roboto','Futura',sans-serif;
+}
+.header, .marketing, .footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header {
+    border-bottom-color: #E5E5E5;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+.header h3 {
+    line-height: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 19px;
+}
+.footer {
+    border-top-color: #E5E5E5;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: #777777;
+    padding-top: 19px;
+}
+@media (min-width: 768px) {
+.container {
+    max-width: 1170px;
+}
+}
+.container-narrow > hr {
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 30px;
+}
+.jumbotron {
+    border-bottom-color: #E5E5E5;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
     
-      <div class="header">
-        <div class="container">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <h3 class="text-muted">Abhinav S.</h3>
-      </div>
-      </div>
+	background-color:transparent;
+}
+.jumbotron h1 , h2, h3, h4{
+	font-family: 'Roboto','Futura',sans-serif;
+	font-weight:700;
+	color:#2C3E50;
+	
+}
+blockquote.style1  {
+	border-color: #5CB85C;
+}
+blockquote.style2 {
+	border-color:#F0AD4E;
+}
+blockquote.style3 {
+	border-color:#5BC0DE;
+}
 
-      <div class="jumbotron">
-	<div class="container">
-        <h1>Web developer</h1>
-        <blockquote>
-					
-	<h2>java/j2ee, Grails</h2>
-	<h3>Rails, Javascript, AngularJS</h3>
-	<h4>Python, dJango</h4>
-</blockquote>
-        <p><a class="btn btn-lg btn-success" href="#">Sign up today</a></p>
-        </div>
-      </div>
+.jumbotron h1 {
+	font-size: 75px;
+}
+.jumbotron h2 {
+	font-size: 65px;
+}
+.jumbotron h3 {
+	font-size: 55px;
+}
+.jumbotron h4 {
+	font-size: 45px;
+}
+.jumbotron .btn {
+    font-size: 21px;
+    padding-bottom: 14px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 14px;
+}
+.marketing {
+    margin-bottom: 40px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 40px;
+}
+.marketing p + h4 {
+    margin-top: 28px;
+}
+@media screen and (min-width: 768px) {
+.header, .marketing, .footer {
+    padding-left: 0;
+    padding-right: 0;
+}
+.header {
+    margin-bottom: 30px;
+}
+.jumbotron {
+    border-bottom-color: -moz-use-text-color;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+}
+}
 
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+.marketing {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.marketing h2 {
+    font-weight: normal;
+}
+.marketing .col-lg-4 p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.featurette-divider {
+    margin-bottom: 80px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 80px;
+}
+.featurette-heading {
+    font-weight: 300;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+@media (min-width: 768px) {
+.marketing {
+    padding-left: 0;
+    padding-right: 0;
+}
 
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-        </div>
-
-        <div class="col-lg-6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-        </div>
-      </div>
-
-      <div class="footer">
-        <p>&copy; Company 2013</p>
-      </div>
-
-    
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-  </body>
-</html>
+.featurette-heading {
+    font-size: 50px;
+}
+}
+@media (min-width: 992px) {
+.featurette-heading {
+    margin-top: 120px;
+}
+}
