@@ -29,7 +29,7 @@
       <div class="header">
         <div class="container">
         <ul class="nav nav-pills pull-right">
-          <li class=""><a href="#" class="btn btn-success">Home</a></li>
+          
           <li><a href="#about">About</a></li>
           <li><a href="#work">Work</a></li>
 	  <li><a class="btn btn-primary" href="#">Blog</a></li>
@@ -51,7 +51,7 @@
 		<h4>Python, django</h4>
 		</blockquote>
 		 
-			<p><a class="btn btn-lg btn-success" href="#">Sign up today</a></p>
+			
 			</div>
       </div>
 <section id="about">
@@ -88,7 +88,7 @@
         </div>
         <div class="col-md-7">
           <h2 class="featurette-heading"><a href="arrowdevices.com">Arrow devices </a> <span class="text-muted">Buisness website of arrowdevices</span></h2>
-          <p class="lead">Developed using mezzanine a djanog based CMS. cutomized the default theme and some features. I also deployed the app on the VPN running ubuntu. </p>
+          <p class="lead">Developed using mezzanine a djanog based CMS. cutomized the default theme and some features. I also deployed the app on the VPS running ubuntu. </p>
         </div>
       </div>
 
